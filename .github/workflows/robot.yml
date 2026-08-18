@@ -1,4 +1,4 @@
-name: Robot
+name: Cukika robot
 
 on:
   repository_dispatch:
