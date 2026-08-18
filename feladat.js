@@ -6,7 +6,8 @@ document.querySelectorAll('.valasz-gomb').forEach(gomb => {
         this.classList.add('aktiv');
         
         // ELMENTJÜK a gomb szövegét a telefon rejtett memóriájába
-        localStorage.setItem('aktualisValasz', this.innerText); 
+        const valasz = this.getAttribute('valasz');
+        localStorage.setItem('aktualisValasz', valasz); 
         console.log('Ideiglenesen elmentve a memóriába:', this.innerText);
     });
 });
