@@ -1,8 +1,0 @@
-{
-  "kerdes": "Mi Magyarország fővárosa?",
-  "valaszok": [
-    {"szoveg": "Budapest", "helyes": true},
-    {"szoveg": "Bécs", "helyes": false},
-    {"szoveg": "Prága", "helyes": false}
-  ]
-}
