@@ -1,1 +1,29 @@
+name: Cukika robot
 
+on:
+  repository_dispatch:
+    types: [uj_valasz_erkezett]
+
+permissions:
+  contents: write
+
+jobs:
+  mentes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Repó letöltése
+        uses: actions/checkout@v4
+
+      - name: Új sor hozzáírása a dokumentumhoz
+        run: |
+          # Idézőjelekkel védjük a szöveget, és a messages.txt végére fűzzük (>>)
+          echo "${{ github.event.client_payload.jatekos }}: ${{ github.event.client_payload.valasz }}" >> messages.txt
+
+      - name: Változtatások mentése a GitHubra
+        run: |
+          git config --global user.name "Cukika Robot"
+          git config --global user.email "robot@cukika.local"
+          git add messages.txt
+          # Ha nincs változás, akkor sem áll le hibával a robot
+          git commit -m "Új válasz hozzáadva: ${{ github.event.client_payload.jatekos }}" || echo "Nincs változás"
+          git push
