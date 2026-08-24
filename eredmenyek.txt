@@ -6,3 +6,4 @@ Teszt Roland: B
 Teszt Roland: B
 Teszt Roland: B
 Teszt Roland: B
+Teszt nev: A
