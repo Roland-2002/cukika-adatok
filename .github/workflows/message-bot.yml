@@ -2,7 +2,7 @@ name: Cukika robot
 
 on:
   repository_dispatch:
-    types: [uj_valasz_erkezett]
+    types: [uj_uzenet_erkezett]
 
 permissions:
   contents: write
