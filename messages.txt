@@ -1,2 +1,3 @@
 
 Bali: Rossz a kép
+Teszt nev: Null null
