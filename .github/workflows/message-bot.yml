@@ -1,4 +1,4 @@
-name: Cukika robot
+name: Messenger robot
 
 on:
   repository_dispatch:
