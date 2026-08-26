@@ -1,7 +1,7 @@
 98, 5, 30:12, jozsi, matek
 96, 5, 24:24, pali, magyar
 94, 5, 33:14, jani, tori
-93, 5, 10:15, robi, enek
+93, 5, 100:15, robi, enek
 93, 5, 10:15, robi, enek
 93, 5, 10:15, robi, enek
 93, 5, 10:15, robi, enek
