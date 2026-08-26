@@ -23,6 +23,5 @@ jobs:
           git config --global user.name "Cukika Robot"
           git config --global user.email "robot@cukika.local"
           git add messages.txt
-          # Ha nincs változás, akkor sem áll le hibával a robot
           git commit -m "Új válasz hozzáadva: ${{ github.event.client_payload.jatekos }}" || echo "Nincs változás"
           git push
