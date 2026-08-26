@@ -1,1 +1,4 @@
-
+98: jozsi
+32: peti
+12: jani
+1: en
