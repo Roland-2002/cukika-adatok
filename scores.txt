@@ -9,4 +9,5 @@
 93, 5, 10:15, robi, enek
 93, 5, 10:15, robi, enek
 93, 5, 10:15, robi, enek
-22, 5, 38:57, en, semmi
+22, 5, 38:57, en, fejlesztes
+12, 1, 60:00, senki, ennek nem kéne látszódni
