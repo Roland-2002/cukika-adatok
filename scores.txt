@@ -1,4 +1,5 @@
-98: jozsi: matek
-32: peti: matek
-12: jani: magyar
-1: en: semmi
+98, 5, 30:12, jozsi, matek
+96, 5, 24:24, pali, magyar
+94, 5, 33:14, jani, tori
+93, 5, 10:15, robi, enek
+92, 5, 38:57, en, semmi
