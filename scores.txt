@@ -2,4 +2,11 @@
 96, 5, 24:24, pali, magyar
 94, 5, 33:14, jani, tori
 93, 5, 10:15, robi, enek
-92, 5, 38:57, en, semmi
+93, 5, 10:15, robi, enek
+93, 5, 10:15, robi, enek
+93, 5, 10:15, robi, enek
+93, 5, 10:15, robi, enek
+93, 5, 10:15, robi, enek
+93, 5, 10:15, robi, enek
+93, 5, 10:15, robi, enek
+22, 5, 38:57, en, semmi
