@@ -1,4 +1,4 @@
-98: jozsi
-32: peti
-12: jani
-1: en
+98: jozsi: matek
+32: peti: matek
+12: jani: magyar
+1: en: semmi
