@@ -16,7 +16,7 @@ jobs:
 
       - name: Új sor hozzáírása a dokumentumhoz
         run: |
-          echo "${{ github.event.client_payload.valasz }}: ${{ github.event.client_payload.jatekos }}" >> scores.txt
+          echo "${{ github.event.client_payload.pontszam }}: ${{ github.event.client_payload.jatekos }}: ${{ github.event.client_payload.targy }}" >> scores.txt
           sort -nr scores.txt -o scores.txt
 
       - name: Változtatások mentése a GitHubra
