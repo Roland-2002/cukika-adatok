@@ -23,5 +23,5 @@ jobs:
           git config --global user.name "Cukika Robot"
           git config --global user.email "robot@cukika.local"
           git add messages.txt
-          git commit -m "Új válasz hozzáadva: ${{ github.event.client_payload.jatekos }}"
+          git commit -m "Új megjegyzés hozzáadva: ${{ github.event.client_payload.jatekos }}"
           git push
