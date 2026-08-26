@@ -16,7 +16,6 @@ jobs:
 
       - name: Új sor hozzáírása a dokumentumhoz
         run: |
-          # Idézőjelekkel védjük a szöveget, és a messages.txt végére fűzzük (>>)
           echo "${{ github.event.client_payload.jatekos }}: ${{ github.event.client_payload.valasz }}" >> messages.txt
 
       - name: Változtatások mentése a GitHubra
