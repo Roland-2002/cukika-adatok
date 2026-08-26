@@ -1,4 +1,4 @@
-98: jozsi \n
-32: peti \n
-12: jani \n
-1: en \n
+98: jozsi
+32: peti
+12: jani
+1: en
